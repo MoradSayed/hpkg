@@ -45,7 +45,7 @@ jobs:
         if: contains(github.event.head_commit.message, '[publish]') && steps.verify.conclusion == 'success'
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          repository_url: https://test.pypi.org/legacy/
+          repository-url: https://test.pypi.org/legacy/
 
       - name: Clean up build artifacts
         run: |
