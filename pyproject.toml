@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hpkg"
-version = "1.0.0a1"
+version = "1.0.0a2"
 requires-python = ">=3.8,<4.0"
 license = {file = "LICENSE"} # "LICENSE" is name of the license file, which must be in root of project folder
 description = "Hello"
