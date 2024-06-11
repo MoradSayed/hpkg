@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpkg"
+version = "1.0.0a1"
+requires-python = ">=3.8,<4.0"
+license = {file = "LICENSE"} # "LICENSE" is name of the license file, which must be in root of project folder
+description = "Hello"
+readme = "README.md"
+keywords = ["just saying hi"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: Other/Proprietary License",
+    "Operating System :: Microsoft :: Windows",
+]
+
