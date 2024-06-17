@@ -20,7 +20,7 @@ jobs:
         id: verify
         run: |
           COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
-          TRUSTED_USERS=("MoradSyed")
+          TRUSTED_USERS=("MoradSayed")
           if [[ ! " ${TRUSTED_USERS[@]} " =~ " ${COMMIT_AUTHOR} " ]]; then
             echo "Commit author ${COMMIT_AUTHOR} is not trusted. Exiting..."
             exit 1
